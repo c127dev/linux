@@ -34,7 +34,6 @@
 		};
 	};
 
-	/*
 	analog-sound {
 		compatible = "simple-audio-card";
 		pinctrl-names = "default";
@@ -67,7 +66,6 @@
 			system-clock-frequency = <12288000>;
 		};
 	};
-	*/
 
 	hdmi0-con {
 		compatible = "hdmi-connector";
@@ -273,7 +271,6 @@
 	pinctrl-0 = <&i2c6m3_xfer>;
 	status = "okay";
 
-	/*
 	es8388: audio-codec@10 {
 		compatible = "everest,es8388", "everest,es8328";
 		reg = <0x10>;
@@ -286,7 +283,6 @@
 		assigned-clock-rates = <12288000>;
 		#sound-dai-cells = <0>;
 	};
-	*/
 
 	usbc0: usb-typec@22 {
 		compatible = "fcs,fusb302";
